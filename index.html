@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小曾的个人介绍</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #50b3a2;
+            color: white;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+        header a {
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        header .highlight, header .current a {
+            color: #e8491d;
+            font-weight: bold;
+        }
+        header a:hover {
+            color: #ffffff;
+            font-weight: bold;
+        }
+        section#showcase {
+            min-height: 400px;
+            background: url('profile.jpg') no-repeat 0 -100px;
+            text-align: center;
+            color: #ffffff;
+        }
+        section#showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        section#showcase p {
+            font-size: 20px;
+        }
+        footer {
+            background: #333333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>小曾的个人介绍</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="index.html">主页</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>欢迎了解小曾</h1>
+            <p>一个热爱生活，喜欢小说和音乐的19岁女孩。</p>
+        </div>
+    </section>
+
+    <section id="info">
+        <div class="container">
+            <article id="personal">
+                <h2>个人信息</h2>
+                <p><strong>姓名: </strong>小曾</p>
+                <p><strong>性别: </strong>女</p>
+                <p><strong>年龄: </strong>19岁</p>
+                <p><strong>学校: </strong>南京财经大学</p>
+                <p><strong>专业: </strong>贸易经济</p>
+            </article>
+
+            <article id="hobbies">
+                <h2>兴趣爱好</h2>
+                <p><strong>爱好: </strong>看小说，听音乐</p>
+                <p><strong>最喜欢的歌曲: </strong>可乐</p>
+            </article>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 小曾</p>
+    </footer>
+</body>
+</html>
